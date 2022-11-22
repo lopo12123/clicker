@@ -1,8 +1,8 @@
 [package]
-name = "Clicker"
+name = "clicker"
 version = "0.0.0"
 description = "A Tauri App"
-authors = ["you"]
+authors = ["lopo<lopo@zju.edu.cn>"]
 license = ""
 repository = ""
 edition = "2021"
