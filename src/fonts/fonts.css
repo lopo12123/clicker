@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Bitmap12';
+    src: url("./Bitmap12.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Bitmap16';
+    src: url("./Bitmap16.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'LED';
+    src: url("./UNIDREAMLED.ttf") format('truetype');
+}

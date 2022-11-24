@@ -4,6 +4,8 @@ import Panic from "../views/Panic";
 import { lazy } from "react";
 
 const Welcome = lazy(() => import("@/views/Welcome"))
+const About = lazy(() => import("@/views/About"))
+const Setting = lazy(() => import("@/views/Setting"))
 
 const routes: RouteObject[] = [
     {
@@ -18,6 +20,14 @@ const routes: RouteObject[] = [
             {
                 path: 'welcome',
                 element: <Welcome/>,
+            },
+            {
+                path: 'about',
+                element: <About/>
+            },
+            {
+                path: 'setting',
+                element: <Setting/>
             }
         ]
     },
