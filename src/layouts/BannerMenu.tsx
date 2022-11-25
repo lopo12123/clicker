@@ -1,26 +1,20 @@
-import { SpeedDial, SpeedDialAction, SpeedDialIcon } from "@mui/material";
-
-/**
- * @description dial 选项列表
- */
-const DialItems = [
-    { icon: <div>1</div>, tooltip: '1' },
-    { icon: <div>2</div>, tooltip: '2' },
-    { icon: <div>3</div>, tooltip: '3' },
-    { icon: <div>4</div>, tooltip: '4' },
-]
+import { appState, AppStateColor } from "@/stores/globalStore";
+import { useRecoilValue } from "recoil";
 
 export default function BannerMenu() {
+    const _app_state = useRecoilValue(appState)
+
     return (
-        <div className="w-full h-12 border-b-[1px] border-blue-light bg-b10">
-            <div className="absolute w-20 h-20 top-0 left-0 border-b-2 border-blue-light rounded-br-full bg-b10">
-                <SpeedDial ariaLabel="main-menu" direction="down" icon={ <div>11</div> } open={true}>
-                    {
-                        DialItems.map(({ icon, tooltip }) => (
-                            <SpeedDialAction icon={ <SpeedDialIcon icon={ icon }/> } tooltipTitle={ tooltip }/>
-                        ))
-                    }
-                </SpeedDial>
+        <div className="w-full h-12">
+            <div className="h-2  rounded-t" data-tauri-drag-region
+                 style={ { background: AppStateColor[_app_state] } }/>
+            <div className="w-full h-10 bg-b10 border-b-[1px] border-b30 flex flex-row items-center justify-end"
+                 data-tauri-drag-region>
+                <i className="iconfont icon-burger absolute left-4 text-blue cursor-pointer" style={ { fontSize: 24 } }/>
+
+                <i className="iconfont icon-min mr-4 text-blue cursor-pointer" style={ { fontSize: 24 } }/>
+                <i className="iconfont icon-max mr-4 text-blue cursor-pointer" style={ { fontSize: 24 } }/>
+                <i className="iconfont icon-power-off mr-4 text-blue cursor-pointer" style={ { fontSize: 24 } }/>
             </div>
         </div>
     )

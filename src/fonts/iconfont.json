@@ -1,0 +1,72 @@
+{
+  "id": "3784660",
+  "name": "clicker",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "705662",
+      "name": "电源",
+      "font_class": "power-off",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "18170160",
+      "name": "功能,汉堡键,横杠",
+      "font_class": "burger",
+      "unicode": "e976",
+      "unicode_decimal": 59766
+    },
+    {
+      "icon_id": "348538",
+      "name": "hand-grab-o",
+      "font_class": "grab",
+      "unicode": "eafa",
+      "unicode_decimal": 60154
+    },
+    {
+      "icon_id": "587042",
+      "name": "pointer",
+      "font_class": "pointer",
+      "unicode": "e7bb",
+      "unicode_decimal": 59323
+    },
+    {
+      "icon_id": "15343427",
+      "name": "软件版本更新",
+      "font_class": "download",
+      "unicode": "ef4e",
+      "unicode_decimal": 61262
+    },
+    {
+      "icon_id": "17581747",
+      "name": "最小值",
+      "font_class": "min",
+      "unicode": "ec69",
+      "unicode_decimal": 60521
+    },
+    {
+      "icon_id": "17581748",
+      "name": "最大值",
+      "font_class": "max",
+      "unicode": "ec68",
+      "unicode_decimal": 60520
+    },
+    {
+      "icon_id": "18164737",
+      "name": "分叉,大数据,数据结构,关系,关系分析,关系网,组织",
+      "font_class": "relation-graph",
+      "unicode": "e867",
+      "unicode_decimal": 59495
+    },
+    {
+      "icon_id": "32016185",
+      "name": "检查更新",
+      "font_class": "update",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    }
+  ]
+}
