@@ -54,11 +54,17 @@
         },
         "windows": [
             {
+                "label": "main",
+                "title": "Clicker",
+                "decorations": false,
+                "transparent": true,
                 "fullscreen": false,
+                "width": 800,
                 "height": 600,
+                "minWidth": 800,
+                "minHeight": 600,
                 "resizable": true,
-                "title": "clicker",
-                "width": 800
+                "fileDropEnabled": false
             }
         ]
     }

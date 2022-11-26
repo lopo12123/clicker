@@ -6,11 +6,123 @@
   "description": "",
   "glyphs": [
     {
-      "icon_id": "705662",
-      "name": "电源",
+      "icon_id": "4723191",
+      "name": "图片加载失败",
+      "font_class": "broken",
+      "unicode": "ec0d",
+      "unicode_decimal": 60429
+    },
+    {
+      "icon_id": "12990754",
+      "name": "加载-2-线",
+      "font_class": "loading",
+      "unicode": "e8b8",
+      "unicode_decimal": 59576
+    },
+    {
+      "icon_id": "4506836",
+      "name": "设备管理",
+      "font_class": "manage",
+      "unicode": "ebb7",
+      "unicode_decimal": 60343
+    },
+    {
+      "icon_id": "623563",
+      "name": "右播放",
+      "font_class": "wave-left",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "623565",
+      "name": "左播放",
+      "font_class": "wave-right",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "6268299",
+      "name": "播放视频",
+      "font_class": "playing",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "6268313",
+      "name": "录制视频",
+      "font_class": "record",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "21538297",
+      "name": "对",
+      "font_class": "check",
+      "unicode": "e929",
+      "unicode_decimal": 59689
+    },
+    {
+      "icon_id": "3973034",
+      "name": "点点点",
+      "font_class": "tri-dot",
+      "unicode": "e6b6",
+      "unicode_decimal": 59062
+    },
+    {
+      "icon_id": "9674040",
+      "name": "huitui",
+      "font_class": "back",
+      "unicode": "e6c3",
+      "unicode_decimal": 59075
+    },
+    {
+      "icon_id": "604650",
+      "name": "退出",
       "font_class": "power-off",
-      "unicode": "e60c",
-      "unicode_decimal": 58892
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "12752733",
+      "name": "网址",
+      "font_class": "website",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "162882",
+      "name": "设置",
+      "font_class": "setting",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "9234833",
+      "name": "关于",
+      "font_class": "info",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "11770168",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "681166",
+      "name": "对调",
+      "font_class": "switch",
+      "unicode": "e735",
+      "unicode_decimal": 59189
+    },
+    {
+      "icon_id": "1311978",
+      "name": "错",
+      "font_class": "cross",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
     },
     {
       "icon_id": "18170160",
@@ -60,13 +172,6 @@
       "font_class": "relation-graph",
       "unicode": "e867",
       "unicode_decimal": 59495
-    },
-    {
-      "icon_id": "32016185",
-      "name": "检查更新",
-      "font_class": "update",
-      "unicode": "e602",
-      "unicode_decimal": 58882
     }
   ]
 }

@@ -10,7 +10,7 @@ export default function Welcome() {
         setAppState(_v => v)
     }, [])
     return (
-        <div className="w-full h-full bg-b00">
+        <div className="w-full h-full bg-b05">
             { state } <br/>
             <button onClick={ () => handleSetAppState('IDLE') }>idle</button>
             <br/>

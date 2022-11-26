@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 3784660 */
-  src: url('iconfont.woff2?t=1669393202293') format('woff2'),
-       url('iconfont.woff?t=1669393202293') format('woff'),
-       url('iconfont.ttf?t=1669393202293') format('truetype');
+  src: url('iconfont.woff2?t=1669479445228') format('woff2'),
+       url('iconfont.woff?t=1669479445228') format('woff'),
+       url('iconfont.ttf?t=1669479445228') format('truetype');
 }
 
 .iconfont {
@@ -13,8 +13,72 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-broken:before {
+  content: "\ec0d";
+}
+
+.icon-loading:before {
+  content: "\e8b8";
+}
+
+.icon-manage:before {
+  content: "\ebb7";
+}
+
+.icon-wave-left:before {
+  content: "\e638";
+}
+
+.icon-wave-right:before {
+  content: "\e63a";
+}
+
+.icon-playing:before {
+  content: "\e643";
+}
+
+.icon-record:before {
+  content: "\e64b";
+}
+
+.icon-check:before {
+  content: "\e929";
+}
+
+.icon-tri-dot:before {
+  content: "\e6b6";
+}
+
+.icon-back:before {
+  content: "\e6c3";
+}
+
 .icon-power-off:before {
-  content: "\e60c";
+  content: "\e62e";
+}
+
+.icon-website:before {
+  content: "\e629";
+}
+
+.icon-setting:before {
+  content: "\e600";
+}
+
+.icon-info:before {
+  content: "\e62d";
+}
+
+.icon-home:before {
+  content: "\e667";
+}
+
+.icon-switch:before {
+  content: "\e735";
+}
+
+.icon-cross:before {
+  content: "\e63d";
 }
 
 .icon-burger:before {
@@ -43,9 +107,5 @@
 
 .icon-relation-graph:before {
   content: "\e867";
-}
-
-.icon-update:before {
-  content: "\e602";
 }
 

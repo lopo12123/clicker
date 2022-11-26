@@ -7,7 +7,7 @@ import BannerMenu from "@/layouts/BannerMenu";
 export default function App() {
     return (
         <RecoilRoot>
-            <div className="w-full h-full bg-b00 rounded-lg border-[1px] border-b30 flex flex-col items-center justify-between">
+            <div className="w-full h-full rounded-lg border border-t-0 border-b30 bg-b10 flex flex-col items-center justify-between overflow-hidden">
                 <BannerMenu/>
 
                 <div className="w-full flex-1">

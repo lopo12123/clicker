@@ -1,15 +1,6 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 import type { Location, NavigateOptions, To } from 'react-router-dom';
-
-/**
- * @description 路由
- */
-export const enum RouteMap {
-    /**
-     * @description 首页
-     */
-    Home = '/home',
-}
+import { RouteMap } from "./index";
 
 /**
  * @description use navigate with custom guard
