@@ -2,7 +2,6 @@ import { useCallback, useEffect, useState } from "react";
 import { version } from "../../package.json"
 import { Divider } from "@mui/material";
 import { open } from "@tauri-apps/api/shell";
-import { useNotification } from "@/hooks/useNotification";
 
 const ExternalLinks = {
     github: 'https://github.com/lopo12123/clicker',
