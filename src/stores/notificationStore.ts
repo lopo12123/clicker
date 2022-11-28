@@ -2,13 +2,13 @@ import { atom, useRecoilState } from "recoil";
 
 export type NotificationConfig = {
     // 系统 / 应用内
-    type: 'system' | 'app'
+    behavior: 'sys' | 'app'
     position: 'top-left' | 'top-center' | 'top-right' | 'bottom-left' | 'bottom-center' | 'bottom-right'
     theme: 'dark' | 'light'
 }
 
 let defaultConfig: NotificationConfig = {
-    type: 'system',
+    behavior: 'app',
     position: 'top-right',
     theme: 'light'
 }
@@ -18,7 +18,6 @@ if(storedConfig) {
         defaultConfig = JSON.parse(storedConfig)
     }
     catch (e) {
-
     }
 }
 const config = atom<NotificationConfig>({

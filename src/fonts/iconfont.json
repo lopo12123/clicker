@@ -6,6 +6,76 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "1301",
+      "name": "应用",
+      "font_class": "application",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "1727562",
+      "name": "326数值下降",
+      "font_class": "bottom",
+      "unicode": "e8f9",
+      "unicode_decimal": 59641
+    },
+    {
+      "icon_id": "1727565",
+      "name": "325数值上升",
+      "font_class": "top",
+      "unicode": "e8fa",
+      "unicode_decimal": 59642
+    },
+    {
+      "icon_id": "8802631",
+      "name": "系统",
+      "font_class": "system",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "25555523",
+      "name": "暗黑模式",
+      "font_class": "dark",
+      "unicode": "e72f",
+      "unicode_decimal": 59183
+    },
+    {
+      "icon_id": "25670468",
+      "name": "明亮模式",
+      "font_class": "light",
+      "unicode": "e746",
+      "unicode_decimal": 59206
+    },
+    {
+      "icon_id": "26366869",
+      "name": "箭头_右下",
+      "font_class": "bottom-right",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "31919196",
+      "name": "右上",
+      "font_class": "top-right",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "31919197",
+      "name": "左上",
+      "font_class": "top-left",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "31919211",
+      "name": "左下",
+      "font_class": "bottom-left",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
       "icon_id": "4723191",
       "name": "图片加载失败",
       "font_class": "broken",
