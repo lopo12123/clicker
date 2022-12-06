@@ -1,6 +1,6 @@
 [package]
 name = "clicker"
-version = "0.0.0"
+version = "0.1.0"
 description = "A Tauri App"
 authors = ["lopo<lopo@zju.edu.cn>"]
 license = ""
@@ -17,6 +17,7 @@ tauri-build = {version = "1.2", features = [] }
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
 tauri = {version = "1.2", features = ["api-all"] }
+toca = "0.1.1"
 
 [features]
 # by default Tauri runs in production mode

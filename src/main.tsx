@@ -14,11 +14,11 @@ import { router } from "./routers";
 import Keyboard from "@/components/KeyboardUI/Keyboard";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement)
-    // .render(<RouterProvider router={ router }/>)
-    .render(
-        <div>
-            <div style={ { width: '600px', height: '250px' } }>
-                <Keyboard/>
-            </div>
-        </div>
-    )
+    .render(<RouterProvider router={ router }/>)
+    // .render(
+    //     <div>
+    //         <div style={ { width: '600px', height: '250px' } }>
+    //             <Keyboard/>
+    //         </div>
+    //     </div>
+    // )
