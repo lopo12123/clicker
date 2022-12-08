@@ -2,11 +2,24 @@
     font-family: 'Bitmap12';
     src: url("./Bitmap12.ttf") format('truetype');
 }
+
 @font-face {
     font-family: 'Bitmap16';
     src: url("./Bitmap16.ttf") format('truetype');
 }
+
 @font-face {
     font-family: 'LED';
     src: url("./UNIDREAMLED.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'ms_sans_serif';
+    src: url("./ms_sans_serif.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'ms_sans_serif_bold';
+    src: url("./ms_sans_serif_bold.woff2") format('woff2');
+    font-weight: bold;
 }

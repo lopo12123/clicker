@@ -1,4 +1,5 @@
 import "./keyboard.css"
+import { useCallback, useEffect, useRef, useState } from "react";
 
 const Layout: { label: string, code: string }[][] = [
     [
@@ -90,6 +91,13 @@ const Layout: { label: string, code: string }[][] = [
 ]
 
 export default function Keyboard() {
+    const [ activeKeycodes, setActiveKeycodes ] = useState(new Set())
+
+    useEffect(() => {
+        // 启动监听
+        // return 注销监听
+    }, [])
+
     return (
         <div className="keyboard-container">
             {
@@ -98,8 +106,9 @@ export default function Keyboard() {
                         <div className="keyboard-row" key={ `row-${ rowIdx }` }>
                             {
                                 row.map((key, keyIdx) => {
-                                    return <span className="keyboard-cell"
-                                                 key={ `key-${ rowIdx }-${ keyIdx }` }>{ key.label }</span>
+                                    return <span
+                                        className={ `keyboard-cell ${ activeKeycodes.has(key.code) ? 'cell__active' : '' }` }
+                                        key={ `key-${ rowIdx }-${ keyIdx }` }>{ key.label }</span>
                                 })
                             }
                         </div>

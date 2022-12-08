@@ -2,6 +2,7 @@ import { createBrowserRouter, redirect, RouteObject } from "react-router-dom";
 import App from "../App";
 import Panic from "../views/Panic";
 import { lazy } from "react";
+import KeyboardView from "@/KeyboardView";
 
 const Welcome = lazy(() => import("@/views/Welcome"))
 const Record = lazy(() => import("@/views/Record"))
@@ -64,6 +65,11 @@ const routes: RouteObject[] = [
             }
         ]
     },
+    {
+        path: '/keyboard',
+        element: <KeyboardView/>,
+        errorElement: <Panic/>
+    }
 ]
 
 const router = createBrowserRouter(routes)

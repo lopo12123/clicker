@@ -38,7 +38,8 @@ export default function About() {
             <Divider sx={ { marginY: '8px' } }/>
             <p><b>贡献</b></p>
             <p className="text-b60 cursor-pointer hover:underline"
-               onClick={ () => handleExternalLinks('github') }>在GitHub上查看</p>
+               onClick={ () => handleExternalLinks('github') }>
+                在GitHub上查看</p>
             <p className="text-b60 cursor-pointer hover:underline"
                onClick={ () => handleExternalLinks('issue') }>
                 反馈 (建议、Bugs等任何内容)

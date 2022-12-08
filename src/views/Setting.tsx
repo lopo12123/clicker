@@ -1,22 +1,28 @@
-import { useCallback, useEffect } from "react";
+import { useCallback } from "react";
 import { useNotification } from "@/hooks/useNotification";
 import { useNotificationConfig } from "@/stores/notificationStore";
 import { Divider, MenuItem, Select } from "@mui/material";
+import { LogicalSize, WebviewWindow } from "@tauri-apps/api/window"
 
 export default function Setting() {
     const notification = useNotification()
     const [ notificationConfig, setNotificationConfig ] = useNotificationConfig()
 
-    const handleTest = useCallback(() => {
+    const handleNotificationTest = useCallback(() => {
         notification('提示消息测试')
     }, [ notification ])
+
+    const handleKeyboardTest = useCallback(() => {
+        const win = new WebviewWindow('keyboard', { width: 800, height: 300 })
+        win.show()
+    }, [])
 
     return (
         <div className="w-full h-full px-4 text-b90">
             <p>
                 <b>提示设置</b>
                 <span className="ml-4 text-sm text-b60 cursor-pointer"
-                      onClick={ handleTest }>
+                      onClick={ handleNotificationTest }>
                     <i className="iconfont icon-pointer"/>点此测试
                 </span>
             </p>
@@ -84,7 +90,17 @@ export default function Setting() {
                 </Select>
             </div>
             <Divider sx={ { marginY: '8px' } }/>
-            <p><b>按键设置</b></p>
+
+            <p>
+                <b>按键设置</b>
+                <span className="ml-4 text-sm text-b60 cursor-pointer"
+                      onClick={ handleKeyboardTest }>
+                    <i className="iconfont icon-pointer"/>按键检测
+                </span>
+            </p>
+            <div className="my-2">
+                123
+            </div>
         </div>
     )
 }

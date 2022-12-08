@@ -25,6 +25,10 @@ module.exports = {
             'blue-dark': '#3225E5',
             'blue-darker': '#00229B'
         },
+        fontFamily: {
+            'ms': ['ms_sans_serif'],
+            'ms_bold': ['ms_sans_serif_bold']
+        },
         extend: {},
     },
     plugins: [],
